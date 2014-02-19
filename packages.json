@@ -357,12 +357,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/faclib/Slim.git",
-                    "reference": "1789912fb47ccbe78600cc96e00da28b8176e14e"
+                    "reference": "054dea08c7e4916c6168ad247d24cc26a3c80cbd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim/zipball/1789912fb47ccbe78600cc96e00da28b8176e14e",
-                    "reference": "1789912fb47ccbe78600cc96e00da28b8176e14e",
+                    "url": "https://api.github.com/repos/faclib/Slim/zipball/054dea08c7e4916c6168ad247d24cc26a3c80cbd",
+                    "reference": "054dea08c7e4916c6168ad247d24cc26a3c80cbd",
                     "shasum": ""
                 },
                 "require": {
@@ -375,7 +375,7 @@
                 "suggest": {
                     "ext-mcrypt": "Required for HTTP cookie encryption"
                 },
-                "time": "2014-02-18 19:05:24",
+                "time": "2014-02-19 20:27:39",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -457,22 +457,22 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/faclib/Slim-ViewSmarty.git",
-                    "reference": "a26b16abdc8156f42bb2264dd91d1645484c4685"
+                    "reference": "7b04477a237819e8634d5cf72d08f8bbe45f6d6f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim-ViewSmarty/zipball/a26b16abdc8156f42bb2264dd91d1645484c4685",
-                    "reference": "a26b16abdc8156f42bb2264dd91d1645484c4685",
+                    "url": "https://api.github.com/repos/faclib/Slim-ViewSmarty/zipball/7b04477a237819e8634d5cf72d08f8bbe45f6d6f",
+                    "reference": "7b04477a237819e8634d5cf72d08f8bbe45f6d6f",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0",
-                    "slim/slim": "3.*"
+                    "slim/slim": "*@dev"
                 },
                 "suggest": {
                     "smarty/smarty": "Smarty templating system"
                 },
-                "time": "2014-02-18 19:07:18",
+                "time": "2014-02-19 20:36:32",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
