@@ -357,12 +357,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/faclib/Slim.git",
-                    "reference": "054dea08c7e4916c6168ad247d24cc26a3c80cbd"
+                    "reference": "aa821f4fc19dc583834c89670a672f7f8432b20e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim/zipball/054dea08c7e4916c6168ad247d24cc26a3c80cbd",
-                    "reference": "054dea08c7e4916c6168ad247d24cc26a3c80cbd",
+                    "url": "https://api.github.com/repos/faclib/Slim/zipball/aa821f4fc19dc583834c89670a672f7f8432b20e",
+                    "reference": "aa821f4fc19dc583834c89670a672f7f8432b20e",
                     "shasum": ""
                 },
                 "require": {
@@ -375,7 +375,7 @@
                 "suggest": {
                     "ext-mcrypt": "Required for HTTP cookie encryption"
                 },
-                "time": "2014-02-19 20:27:39",
+                "time": "2014-02-19 21:18:24",
                 "type": "library",
                 "extra": {
                     "branch-alias": {

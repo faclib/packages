@@ -4,7 +4,7 @@ packages
 
 
 
-- Lib Repositories <http://faclib.github.io/packagist/>
+- Lib Repositories <http://faclib.github.io/packages/>
 
 ## How to Install 
 
@@ -15,7 +15,7 @@ Create a composer.json file in your project root:
 ```json
 {
     "repositories": [
-        { "type": "composer", "url": "http://faclib.github.io/packagist" }
+        { "type": "composer", "url": "http://faclib.github.io/packages" }
     ]
 }
 ```
