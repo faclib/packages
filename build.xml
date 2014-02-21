@@ -55,12 +55,4 @@
         </exec>
     </target>
 
-    <target name="composer">
-        <exec executable="composer">
-            <arg value="install" />
-        </exec>
-        <exec executable="composer">
-            <arg value="update" />
-        </exec>
-    </target>
 </project>
