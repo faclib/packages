@@ -41,12 +41,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/faclib/php-utils.git",
-                    "reference": "ef1ee8affd301241b9d4aef7d1f1c292261e490a"
+                    "reference": "a2a56b317cc1a3dd333e3b6a6af17210e80f1681"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/php-utils/zipball/ef1ee8affd301241b9d4aef7d1f1c292261e490a",
-                    "reference": "ef1ee8affd301241b9d4aef7d1f1c292261e490a",
+                    "url": "https://api.github.com/repos/faclib/php-utils/zipball/a2a56b317cc1a3dd333e3b6a6af17210e80f1681",
+                    "reference": "a2a56b317cc1a3dd333e3b6a6af17210e80f1681",
                     "shasum": ""
                 },
                 "require": {
@@ -59,7 +59,7 @@
                     "mustangostang/spyc": "*",
                     "pimple/pimple": "*"
                 },
-                "time": "2014-02-18 19:09:18",
+                "time": "2014-02-21 13:51:11",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
