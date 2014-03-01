@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<project name="packages" default="satis" basedir=".">
+<project name="packages" default="compile" basedir=".">
     <tstamp>
         <format property="datemsg" pattern="d-MMM-yyyy hh:mm" locale="en,GB" />
     </tstamp>
 
-    <target name="satis">
+    <target name="compile">
+      <antcall target="satis">
+        <param name="satis" value="satis/slim.json"/>
+        </antcall>
+
+              <antcall target="satis">
+        <param name="satis" value="satis/fac.json"/>
+        </antcall>
+              <antcall target="satis">
+        <param name="satis" value="satis/smarty.json"/>
+        </antcall>
+    </target>
+
+
+<target name="satis">
         <exec executable="satis" >
             <arg value="build" />
             <arg value="--no-interaction" />
-            <arg value="--no-html-output" />
-            <arg value="${basedir}/satis/fac.json" />
+            <arg value="--skip-errors" />
+            <arg value="${satis}" />
         </exec>
-    </target>
+</target>
+
 
 </project>

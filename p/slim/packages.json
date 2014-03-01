@@ -7,14 +7,8 @@
                 "version_normalized": "2.4.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/faclib/Slim.git",
-                    "reference": "f3af144aa194a526c546aa3cc8f41d92a2990bfb"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim/zipball/f3af144aa194a526c546aa3cc8f41d92a2990bfb",
-                    "reference": "f3af144aa194a526c546aa3cc8f41d92a2990bfb",
-                    "shasum": ""
+                    "url": "git@github.com:faclib/Slim.git",
+                    "reference": "24c8b5becb6db1077fad32a8f1c2c436cf436dd0"
                 },
                 "require": {
                     "php": ">=5.3.0"
@@ -50,10 +44,7 @@
                     "microframework",
                     "rest",
                     "router"
-                ],
-                "support": {
-                    "source": "https://github.com/faclib/Slim/tree/v2.4.0RC1"
-                }
+                ]
             },
             "v2.4.0RC1": {
                 "name": "slim/slim",
@@ -61,14 +52,8 @@
                 "version_normalized": "2.4.0.0-RC1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/faclib/Slim.git",
+                    "url": "git@github.com:faclib/Slim.git",
                     "reference": "f3af144aa194a526c546aa3cc8f41d92a2990bfb"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim/zipball/f3af144aa194a526c546aa3cc8f41d92a2990bfb",
-                    "reference": "f3af144aa194a526c546aa3cc8f41d92a2990bfb",
-                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
@@ -104,10 +89,7 @@
                     "microframework",
                     "rest",
                     "router"
-                ],
-                "support": {
-                    "source": "https://github.com/faclib/Slim/tree/v2.4.0RC1"
-                }
+                ]
             },
             "v2.4.1": {
                 "name": "slim/slim",
@@ -115,14 +97,8 @@
                 "version_normalized": "2.4.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/faclib/Slim.git",
-                    "reference": "a7338dfa0736188bff59a1afdfbf0df6e29d5915"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim/zipball/a7338dfa0736188bff59a1afdfbf0df6e29d5915",
-                    "reference": "a7338dfa0736188bff59a1afdfbf0df6e29d5915",
-                    "shasum": ""
+                    "url": "git@github.com:faclib/Slim.git",
+                    "reference": "a0f1f23d66e10e2d96fdf3dee55fce98054de422"
                 },
                 "require": {
                     "php": ">=5.3.0"
@@ -158,10 +134,7 @@
                     "microframework",
                     "rest",
                     "router"
-                ],
-                "support": {
-                    "source": "https://github.com/faclib/Slim/tree/v2.4.1"
-                }
+                ]
             },
             "v3.0.0-RC1": {
                 "name": "slim/slim",
@@ -169,14 +142,8 @@
                 "version_normalized": "3.0.0.0-RC1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/faclib/Slim.git",
-                    "reference": "3983d55d1798c55f6c1938f07b509d980aeb3094"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim/zipball/3983d55d1798c55f6c1938f07b509d980aeb3094",
-                    "reference": "3983d55d1798c55f6c1938f07b509d980aeb3094",
-                    "shasum": ""
+                    "url": "git@github.com:faclib/Slim.git",
+                    "reference": "df6f4942e35f7d2b64449bb70d1032877140382e"
                 },
                 "require": {
                     "php": ">=5.3.0",
@@ -211,10 +178,7 @@
                     "microframework",
                     "rest",
                     "router"
-                ],
-                "support": {
-                    "source": "https://github.com/faclib/Slim/tree/v3.0.0-RC1"
-                }
+                ]
             },
             "dev-master": {
                 "name": "slim/slim",
@@ -222,14 +186,8 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/faclib/Slim.git",
+                    "url": "git@github.com:faclib/Slim.git",
                     "reference": "3056e43cbc826a8f974c7ebcf5f049c1ed468f2b"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim/zipball/3056e43cbc826a8f974c7ebcf5f049c1ed468f2b",
-                    "reference": "3056e43cbc826a8f974c7ebcf5f049c1ed468f2b",
-                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
@@ -265,10 +223,7 @@
                     "microframework",
                     "rest",
                     "router"
-                ],
-                "support": {
-                    "source": "https://github.com/faclib/Slim/tree/master"
-                }
+                ]
             },
             "dev-develop": {
                 "name": "slim/slim",
@@ -276,14 +231,8 @@
                 "version_normalized": "dev-develop",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/faclib/Slim.git",
+                    "url": "git@github.com:faclib/Slim.git",
                     "reference": "10d483ec9dec4e1d232a02ef0bbe94bc4a8f7cab"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim/zipball/10d483ec9dec4e1d232a02ef0bbe94bc4a8f7cab",
-                    "reference": "10d483ec9dec4e1d232a02ef0bbe94bc4a8f7cab",
-                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0",
@@ -323,10 +272,7 @@
                     "microframework",
                     "rest",
                     "router"
-                ],
-                "support": {
-                    "source": "https://github.com/faclib/Slim/tree/develop"
-                }
+                ]
             }
         },
         "slim/view-smarty": {
@@ -337,14 +283,8 @@
                 "target-dir": "Slim/Views",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/faclib/Slim-ViewSmarty.git",
-                    "reference": "ad05771b3707996f85f81af91fdd85f333c99a52"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim-ViewSmarty/zipball/ad05771b3707996f85f81af91fdd85f333c99a52",
-                    "reference": "ad05771b3707996f85f81af91fdd85f333c99a52",
-                    "shasum": ""
+                    "url": "git@github.com:faclib/Slim-ViewSmarty.git",
+                    "reference": "37514e56302768f3c0866612047d0edaf4b5c1db"
                 },
                 "require": {
                     "php": ">=5.3.0",
@@ -363,11 +303,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Smarty View Parser package for the Slim Framework",
-                "support": {
-                    "source": "https://github.com/faclib/Slim-ViewSmarty/tree/v0.1.0",
-                    "issues": "https://github.com/faclib/Slim-ViewSmarty/issues"
-                }
+                "description": "Smarty View Parser package for the Slim Framework"
             },
             "dev-master": {
                 "name": "slim/view-smarty",
@@ -376,14 +312,8 @@
                 "target-dir": "Slim/Views",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/faclib/Slim-ViewSmarty.git",
+                    "url": "git@github.com:faclib/Slim-ViewSmarty.git",
                     "reference": "20ee3cbf41dfe6e2d39a1d63d2fdfa923a127234"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim-ViewSmarty/zipball/20ee3cbf41dfe6e2d39a1d63d2fdfa923a127234",
-                    "reference": "20ee3cbf41dfe6e2d39a1d63d2fdfa923a127234",
-                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0",
@@ -407,150 +337,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Smarty View Parser package for the Slim Framework",
-                "support": {
-                    "source": "https://github.com/faclib/Slim-ViewSmarty/tree/master",
-                    "issues": "https://github.com/faclib/Slim-ViewSmarty/issues"
-                }
-            }
-        },
-        "smarty/smarty": {
-            "v3.1.15": {
-                "name": "smarty/smarty",
-                "version": "v3.1.15",
-                "version_normalized": "3.1.15.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/faclib/Smarty.git",
-                    "reference": "cb92b4d714fb2c90f107975836fc06cd1d1087f8"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Smarty/zipball/cb92b4d714fb2c90f107975836fc06cd1d1087f8",
-                    "reference": "cb92b4d714fb2c90f107975836fc06cd1d1087f8",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.0"
-                },
-                "time": "2014-03-01 09:54:40",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "libs/Smarty.class.php"
-                    ]
-                },
-                "license": [
-                    "(LGPL-2.1 or GPL-3.0+)"
-                ],
-                "description": "Smarty is a template engine for PHP.",
-                "support": {
-                    "source": "https://github.com/faclib/Smarty/tree/v3.1.15"
-                }
-            },
-            "v3.1.16": {
-                "name": "smarty/smarty",
-                "version": "v3.1.16",
-                "version_normalized": "3.1.16.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/faclib/Smarty.git",
-                    "reference": "ac1ac78dea6b875fa36bdcf40cdb14df7feaa2c8"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Smarty/zipball/ac1ac78dea6b875fa36bdcf40cdb14df7feaa2c8",
-                    "reference": "ac1ac78dea6b875fa36bdcf40cdb14df7feaa2c8",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.0"
-                },
-                "time": "2014-03-01 09:53:43",
-                "type": "library",
-                "autoload": {
-                    "classmap": [
-                        "libs/Smarty.class.php"
-                    ]
-                },
-                "license": [
-                    "(LGPL-2.1 or GPL-3.0+)"
-                ],
-                "description": "Smarty is a template engine for PHP.",
-                "support": {
-                    "source": "https://github.com/faclib/Smarty/tree/v3.1.16"
-                }
-            },
-            "3.1.x-dev": {
-                "name": "smarty/smarty",
-                "version": "3.1.x-dev",
-                "version_normalized": "3.1.9999999.9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/faclib/Smarty.git",
-                    "reference": "6c6020c774b4c99987e767fc4b2ab972395c2ae6"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Smarty/zipball/6c6020c774b4c99987e767fc4b2ab972395c2ae6",
-                    "reference": "6c6020c774b4c99987e767fc4b2ab972395c2ae6",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.0"
-                },
-                "time": "2014-03-01 09:46:16",
-                "type": "library",
-                "autoload": {
-                    "files": [
-                        "libs/Smarty.class.php"
-                    ]
-                },
-                "license": [
-                    "(LGPL-2.1 or GPL-3.0+)"
-                ],
-                "description": "Smarty is a template engine for PHP.",
-                "support": {
-                    "source": "https://github.com/faclib/Smarty/tree/3.1.x"
-                }
-            },
-            "dev-master": {
-                "name": "smarty/smarty",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/faclib/Smarty.git",
-                    "reference": "5225d1b7b869ae8145e7f9ccbcc05b0a13af1608"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Smarty/zipball/5225d1b7b869ae8145e7f9ccbcc05b0a13af1608",
-                    "reference": "5225d1b7b869ae8145e7f9ccbcc05b0a13af1608",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.0"
-                },
-                "time": "2014-02-07 15:39:46",
-                "type": "library",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "3.1.x-dev"
-                    }
-                },
-                "autoload": {
-                    "classmap": [
-                        "libs/Smarty.class.php"
-                    ]
-                },
-                "license": [
-                    "(LGPL-2.1 or GPL-3.0+)"
-                ],
-                "description": "Smarty is a template engine for PHP.",
-                "support": {
-                    "source": "https://github.com/faclib/Smarty/tree/master"
-                }
+                "description": "Smarty View Parser package for the Slim Framework"
             }
         }
     }

@@ -1,12 +1,10 @@
 {
     "name": "Lib Repository",
-    "homepage": "http://faclib.github.io/packagist/",
-    "output-html": false,
-    "output-dir":"packages/fac",
+    "homepage": "http://faclib.github.io/packages/p/fac",
+    "output-dir":"p/fac",
     "repositories": [
-        { "type": "vcs", "url": "https://github.com/faclib/Smarty" },
-        { "type": "vcs", "url": "https://github.com/faclib/Slim" },
-        { "type": "vcs", "url": "https://github.com/faclib/Slim-ViewSmarty" }
+        { "type": "vcs", "url": "https://github.com/faclib/php-base-utils" },
+        { "type": "vcs", "url": "https://github.com/faclib/php-db-command" }
     ],
     "require-all": true
 }

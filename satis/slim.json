@@ -1,0 +1,10 @@
+{
+    "name": "Lib Repository",
+    "homepage": "http://faclib.github.io/packages/p/slim",
+    "output-dir":"p/slim",
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/faclib/Slim" },
+        { "type": "vcs", "url": "https://github.com/faclib/Slim-ViewSmarty" }
+    ],
+    "require-all": true
+}
