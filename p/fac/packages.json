@@ -1,0 +1,106 @@
+{
+    "packages": {
+        "faclib/php-base-utils": {
+            "dev-master": {
+                "name": "faclib/php-base-utils",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:faclib/php-base-utils.git",
+                    "reference": "f764ecccc36eaf2a5acfefb2e138bab6aa1f035e"
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "time": "2014-03-01 05:51:07",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "common.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Dmitriy Tyurin",
+                        "email": "fobia3d@gmail.com"
+                    }
+                ],
+                "description": "PHP Base-Utils."
+            },
+            "dev-develop": {
+                "name": "faclib/php-base-utils",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:faclib/php-base-utils.git",
+                    "reference": "e2faadd0699dbb38fd39497396bf6cba4bca8ea2"
+                },
+                "require": {
+                    "mustangostang/spyc": "0.5.*",
+                    "php": ">=5.3.0",
+                    "pimple/pimple": "1.*"
+                },
+                "time": "2014-03-01 11:14:46",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "common.php"
+                    ],
+                    "classmap": [
+                        "src/lib"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Dmitriy Tyurin",
+                        "email": "fobia3d@gmail.com"
+                    }
+                ],
+                "description": "PHP-Base-Utils."
+            }
+        },
+        "faclib/php-db-command": {
+            "dev-develop": {
+                "name": "faclib/php-db-command",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:faclib/php-db-command.git",
+                    "reference": "3ce6037906d565816dc43c086e281a8ce138ba5d"
+                },
+                "require": {
+                    "faclib/php-base-utils": "dev-master",
+                    "php": ">=5.3.0"
+                },
+                "time": "2014-03-01 10:16:47",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "query"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Dmitriy Tyurin",
+                        "email": "fobia3d@gmail.com"
+                    }
+                ],
+                "description": "PHP-DB-Command."
+            }
+        }
+    }
+}

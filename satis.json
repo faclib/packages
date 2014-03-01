@@ -1,11 +1,11 @@
 {
     "name": "Lib Repository",
-    "homepage": "http://faclib.github.io/packagist/",
+    "homepage": "http://faclib.github.io/packages",
     "repositories": [
-        { "type": "vcs", "url": "https://github.com/faclib/Smarty" },
-        { "type": "vcs", "url": "https://github.com/faclib/Slim" },
-        { "type": "vcs", "url": "https://github.com/faclib/Slim-ViewSmarty" },
-        { "type": "vcs", "url": "https://github.com/faclib/php-utils" }
+        { "type": "composer", "url": "http://github.com/packages/p/slim" },
+        { "type": "composer", "url": "http://github.com/packages/p/smarty" },
+        { "type": "composer", "url": "http://github.com/packages/p/pear" },
+        { "type": "composer", "url": "http://github.com/packages/p/fac" }
     ],
     "require-all": true
 }

@@ -1,6 +1,7 @@
 {
     "name": "PEAR Repository",
-    "homepage": "http://fobia.github.io/pear/",
+    "homepage": "http://faclib.github.io/packages/p/pear",
+    "output-dir":"p/pear",
     "repositories": [
         { "type": "pear", "url": "http://components.ez.no",          "vendor-alias": "pear-ezc"          },
         { "type": "pear", "url": "http://doc.php.net",               "vendor-alias": "pear-phpdocs"      },

@@ -1,58 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <project name="packages" default="compile" basedir=".">
-    <!--
-        #
-        # Системные переменые
-        #
-    -->
-    <property environment="env" />
-    <condition property="os.bat" value=".bat" else="">
-        <equals arg1="${env.OS}" arg2="Windows_NT" />
-    </condition>
-    <condition property="os.exe"  value=".exe" else="">
-        <equals arg1="${env.OS}" arg2="Windows_NT" />
-    </condition>
-    <condition property="os.root"  value="Z\:" else="/">
-        <equals arg1="${env.OS}" arg2="Windows_NT" />
-    </condition>
-    <condition property="exec.bash"  value="C:/cygwin/bin/bash.exe" else="sh">
-        <equals arg1="${env.OS}" arg2="Windows_NT" />
-    </condition>
     <tstamp>
         <format property="datemsg" pattern="d-MMM-yyyy hh:mm" locale="en,GB" />
     </tstamp>
 
+    <target name="compile">
+      <antcall target="satis">
+        <param name="satis" value="satis/slim.json"/>
+        </antcall>
 
+              <antcall target="satis">
+        <param name="satis" value="satis/fac.json"/>
+        </antcall>
+              <antcall target="satis">
+        <param name="satis" value="satis/smarty.json"/>
+        </antcall>
+    </target>
 
-    <target name="compile" depends="satis,commit,push" description="Скомпилировать файлы" />
 
     <target name="satis">
-        <exec executable="php${os.bat}" >
-            <arg value="${basedir}/satis/bin/satis" />
-            <arg value="build" />
-            <arg value="${basedir}/satis.json" />
-            <arg value="${basedir}" />
-        </exec>
+            <exec executable="satis" >
+                <arg value="build" />
+                <arg value="--no-interaction" />
+                <arg value="--skip-errors" />
+                <arg value="${satis}" />
+            </exec>
     </target>
 
-    <target name="commit">
-        <exec executable="git" dir="${basedir}" >
-            <arg value="add" />
-            <arg value="${basedir}" />
-        </exec>
-        <exec executable="git" dir="${basedir}" >
-            <arg value="commit" />
-            <arg value="-am" />
-            <arg value="build a repository - ${datemsg}" />
-        </exec>
-    </target>
-
-    <target name="push">
-        <exec executable="git" dir="${basedir}" >
-            <arg value="push" />
-            <arg value="origin" />
-            <arg value="gh-pages" />
-        </exec>
-    </target>
 
 </project>

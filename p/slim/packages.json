@@ -1,0 +1,344 @@
+{
+    "packages": {
+        "slim/slim": {
+            "v2.4.0": {
+                "name": "slim/slim",
+                "version": "v2.4.0",
+                "version_normalized": "2.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:faclib/Slim.git",
+                    "reference": "24c8b5becb6db1077fad32a8f1c2c436cf436dd0"
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "ext-mcrypt": "Required for HTTP cookie encryption"
+                },
+                "time": "2014-01-31 19:11:35",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.4.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Slim": "."
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Josh Lockhart",
+                        "email": "info@joshlockhart.com",
+                        "homepage": "http://www.joshlockhart.com/"
+                    }
+                ],
+                "description": "Slim Framework, a PHP micro framework",
+                "homepage": "http://github.com/codeguy/Slim",
+                "keywords": [
+                    "microframework",
+                    "rest",
+                    "router"
+                ]
+            },
+            "v2.4.0RC1": {
+                "name": "slim/slim",
+                "version": "v2.4.0RC1",
+                "version_normalized": "2.4.0.0-RC1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:faclib/Slim.git",
+                    "reference": "f3af144aa194a526c546aa3cc8f41d92a2990bfb"
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "ext-mcrypt": "Required for HTTP cookie encryption"
+                },
+                "time": "2014-01-31 19:11:35",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.4.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Slim": "."
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Josh Lockhart",
+                        "email": "info@joshlockhart.com",
+                        "homepage": "http://www.joshlockhart.com/"
+                    }
+                ],
+                "description": "Slim Framework, a PHP micro framework",
+                "homepage": "http://github.com/codeguy/Slim",
+                "keywords": [
+                    "microframework",
+                    "rest",
+                    "router"
+                ]
+            },
+            "v2.4.1": {
+                "name": "slim/slim",
+                "version": "v2.4.1",
+                "version_normalized": "2.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:faclib/Slim.git",
+                    "reference": "a0f1f23d66e10e2d96fdf3dee55fce98054de422"
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "ext-mcrypt": "Required for HTTP cookie encryption"
+                },
+                "time": "2014-02-08 16:13:19",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.4.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Slim": "."
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Josh Lockhart",
+                        "email": "info@joshlockhart.com",
+                        "homepage": "http://www.joshlockhart.com/"
+                    }
+                ],
+                "description": "Slim Framework, a PHP micro framework",
+                "homepage": "http://github.com/codeguy/Slim",
+                "keywords": [
+                    "microframework",
+                    "rest",
+                    "router"
+                ]
+            },
+            "v3.0.0-RC1": {
+                "name": "slim/slim",
+                "version": "v3.0.0-RC1",
+                "version_normalized": "3.0.0.0-RC1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:faclib/Slim.git",
+                    "reference": "df6f4942e35f7d2b64449bb70d1032877140382e"
+                },
+                "require": {
+                    "php": ">=5.3.0",
+                    "pimple/pimple": "1.*"
+                },
+                "require-dev": {
+                    "mockery/mockery": "dev-master@dev"
+                },
+                "suggest": {
+                    "ext-mcrypt": "Required for HTTP cookie encryption"
+                },
+                "time": "2014-02-13 20:53:50",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Slim": "."
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Josh Lockhart",
+                        "email": "info@joshlockhart.com",
+                        "homepage": "http://www.joshlockhart.com/"
+                    }
+                ],
+                "description": "Slim Framework, a PHP micro framework",
+                "homepage": "http://github.com/codeguy/Slim",
+                "keywords": [
+                    "microframework",
+                    "rest",
+                    "router"
+                ]
+            },
+            "dev-master": {
+                "name": "slim/slim",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:faclib/Slim.git",
+                    "reference": "3056e43cbc826a8f974c7ebcf5f049c1ed468f2b"
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "ext-mcrypt": "Required for HTTP cookie encryption"
+                },
+                "time": "2014-02-17 02:05:49",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.4.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Slim": "."
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Josh Lockhart",
+                        "email": "info@joshlockhart.com",
+                        "homepage": "http://www.joshlockhart.com/"
+                    }
+                ],
+                "description": "Slim Framework, a PHP micro framework",
+                "homepage": "http://github.com/codeguy/Slim",
+                "keywords": [
+                    "microframework",
+                    "rest",
+                    "router"
+                ]
+            },
+            "dev-develop": {
+                "name": "slim/slim",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:faclib/Slim.git",
+                    "reference": "10d483ec9dec4e1d232a02ef0bbe94bc4a8f7cab"
+                },
+                "require": {
+                    "php": ">=5.3.0",
+                    "pimple/pimple": "1.*"
+                },
+                "require-dev": {
+                    "mockery/mockery": "dev-master@dev"
+                },
+                "suggest": {
+                    "ext-mcrypt": "Required for HTTP cookie encryption"
+                },
+                "time": "2014-03-01 09:40:26",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-develop": "3.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Slim": "."
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Josh Lockhart",
+                        "email": "info@joshlockhart.com",
+                        "homepage": "http://www.joshlockhart.com/"
+                    }
+                ],
+                "description": "Slim Framework, a PHP micro framework",
+                "homepage": "http://github.com/codeguy/Slim",
+                "keywords": [
+                    "microframework",
+                    "rest",
+                    "router"
+                ]
+            }
+        },
+        "slim/view-smarty": {
+            "v0.1.0": {
+                "name": "slim/view-smarty",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "target-dir": "Slim/Views",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:faclib/Slim-ViewSmarty.git",
+                    "reference": "37514e56302768f3c0866612047d0edaf4b5c1db"
+                },
+                "require": {
+                    "php": ">=5.3.0",
+                    "slim/slim": "3.*"
+                },
+                "suggest": {
+                    "smarty/smarty": "Smarty templating system"
+                },
+                "time": "2014-02-17 04:24:06",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Slim\\Views": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Smarty View Parser package for the Slim Framework"
+            },
+            "dev-master": {
+                "name": "slim/view-smarty",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Slim/Views",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:faclib/Slim-ViewSmarty.git",
+                    "reference": "20ee3cbf41dfe6e2d39a1d63d2fdfa923a127234"
+                },
+                "require": {
+                    "php": ">=5.3.0",
+                    "slim/slim": "*@dev"
+                },
+                "suggest": {
+                    "smarty/smarty": "Smarty templating system"
+                },
+                "time": "2014-03-01 09:43:12",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Slim\\Views": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Smarty View Parser package for the Slim Framework"
+            }
+        }
+    }
+}
