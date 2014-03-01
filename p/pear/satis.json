@@ -1,0 +1,20 @@
+{
+    "name": "PEAR Repository",
+    "homepage": "http://faclib.github.io/packages/p/pear",
+    "output-dir":"p/pear",
+    "repositories": [
+        { "type": "pear", "url": "http://components.ez.no",          "vendor-alias": "pear-ezc"          },
+        { "type": "pear", "url": "http://doc.php.net",               "vendor-alias": "pear-phpdocs"      },
+        { "type": "pear", "url": "http://nikic.github.com/pear",     "vendor-alias": "pear-nikic"        },
+        { "type": "pear", "url": "http://pear.andrewsville.cz",      "vendor-alias": "pear-andrewsville" },
+        { "type": "pear", "url": "http://pear.apigen.org",           "vendor-alias": "pear-apigen"       },
+        { "type": "pear", "url": "http://pear.kukulich.cz",          "vendor-alias": "pear-kukulich"     },
+        { "type": "pear", "url": "http://pear.netpirates.net",       "vendor-alias": "pear-theseer"      },
+        { "type": "pear", "url": "http://pear.nette.org",            "vendor-alias": "pear-nette"        },
+        { "type": "pear", "url": "http://pear2.php.net",             "vendor-alias": "pear-pear"         }
+    ],
+    "require-all": true
+}
+
+
+

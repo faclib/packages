@@ -18,14 +18,14 @@
     </target>
 
 
-<target name="satis">
-        <exec executable="satis" >
-            <arg value="build" />
-            <arg value="--no-interaction" />
-            <arg value="--skip-errors" />
-            <arg value="${satis}" />
-        </exec>
-</target>
+    <target name="satis">
+            <exec executable="satis" >
+                <arg value="build" />
+                <arg value="--no-interaction" />
+                <arg value="--skip-errors" />
+                <arg value="${satis}" />
+            </exec>
+    </target>
 
 
 </project>

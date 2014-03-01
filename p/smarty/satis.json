@@ -1,0 +1,9 @@
+{
+    "name": "Lib Repository",
+    "homepage": "http://faclib.github.io/packages/p/smarty",
+    "output-dir":"p/smarty",
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/faclib/Smarty" }
+    ],
+    "require-all": true
+}

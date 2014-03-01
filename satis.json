@@ -1,0 +1,11 @@
+{
+    "name": "Lib Repository",
+    "homepage": "http://faclib.github.io/packages",
+    "repositories": [
+        { "type": "composer", "url": "http://localhost:83/p/slim" },
+        { "type": "composer", "url": "http://localhost:83/p/smarty" },
+        { "type": "composer", "url": "http://localhost:83/p/pear" },
+        { "type": "composer", "url": "http://localhost:83/p/fac" }
+    ],
+    "require-all": true
+}
