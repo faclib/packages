@@ -7,8 +7,14 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:faclib/php-base-utils.git",
+                    "url": "https://github.com/faclib/php-base-utils.git",
                     "reference": "f764ecccc36eaf2a5acfefb2e138bab6aa1f035e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/faclib/php-base-utils/zipball/f764ecccc36eaf2a5acfefb2e138bab6aa1f035e",
+                    "reference": "f764ecccc36eaf2a5acfefb2e138bab6aa1f035e",
+                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
@@ -34,7 +40,11 @@
                         "email": "fobia3d@gmail.com"
                     }
                 ],
-                "description": "PHP Base-Utils."
+                "description": "PHP Base-Utils.",
+                "support": {
+                    "source": "https://github.com/faclib/php-base-utils/tree/master",
+                    "issues": "https://github.com/faclib/php-base-utils/issues"
+                }
             },
             "dev-develop": {
                 "name": "faclib/php-base-utils",
@@ -42,8 +52,14 @@
                 "version_normalized": "dev-develop",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:faclib/php-base-utils.git",
+                    "url": "https://github.com/faclib/php-base-utils.git",
                     "reference": "e2faadd0699dbb38fd39497396bf6cba4bca8ea2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/faclib/php-base-utils/zipball/e2faadd0699dbb38fd39497396bf6cba4bca8ea2",
+                    "reference": "e2faadd0699dbb38fd39497396bf6cba4bca8ea2",
+                    "shasum": ""
                 },
                 "require": {
                     "mustangostang/spyc": "0.5.*",
@@ -69,7 +85,11 @@
                         "email": "fobia3d@gmail.com"
                     }
                 ],
-                "description": "PHP-Base-Utils."
+                "description": "PHP-Base-Utils.",
+                "support": {
+                    "source": "https://github.com/faclib/php-base-utils/tree/develop",
+                    "issues": "https://github.com/faclib/php-base-utils/issues"
+                }
             }
         },
         "faclib/php-db-command": {
@@ -79,8 +99,14 @@
                 "version_normalized": "dev-develop",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:faclib/php-db-command.git",
+                    "url": "https://github.com/faclib/php-db-command.git",
                     "reference": "3ce6037906d565816dc43c086e281a8ce138ba5d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/faclib/php-db-command/zipball/3ce6037906d565816dc43c086e281a8ce138ba5d",
+                    "reference": "3ce6037906d565816dc43c086e281a8ce138ba5d",
+                    "shasum": ""
                 },
                 "require": {
                     "faclib/php-base-utils": "dev-master",
@@ -99,7 +125,11 @@
                         "email": "fobia3d@gmail.com"
                     }
                 ],
-                "description": "PHP-DB-Command."
+                "description": "PHP-DB-Command.",
+                "support": {
+                    "source": "https://github.com/faclib/php-db-command/tree/develop",
+                    "issues": "https://github.com/faclib/php-db-command/issues"
+                }
             }
         }
     }
