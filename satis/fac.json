@@ -1,0 +1,12 @@
+{
+    "name": "Lib Repository",
+    "homepage": "http://faclib.github.io/packagist/",
+    "output-html": false,
+    "output-dir":"packages/fac",
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/faclib/Smarty" },
+        { "type": "vcs", "url": "https://github.com/faclib/Slim" },
+        { "type": "vcs", "url": "https://github.com/faclib/Slim-ViewSmarty" }
+    ],
+    "require-all": true
+}
