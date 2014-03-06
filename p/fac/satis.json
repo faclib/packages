@@ -3,8 +3,8 @@
     "homepage": "http://faclib.github.io/packages/p/fac",
     "output-dir":"p/fac",
     "repositories": [
-        { "type": "vcs", "url": "https://github.com/faclib/php-base-utils" },
-        { "type": "vcs", "url": "https://github.com/faclib/php-db-command" }
+        { "type": "vcs", "url": "https://github.com/faclib/php-base" },
+        { "type": "vcs", "url": "https://github.com/faclib/php-database" }
     ],
     "require-all": true
 }

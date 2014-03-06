@@ -5,7 +5,8 @@
         { "type": "composer", "url": "http://faclib.github.io/packages/p/slim" },
         { "type": "composer", "url": "http://faclib.github.io/packages/p/smarty" },
         { "type": "composer", "url": "http://faclib.github.io/packages/p/pear" },
-        { "type": "composer", "url": "http://faclib.github.io/packages/p/fac" }
+        { "type": "vcs", "url": "https://github.com/faclib/php-base" },
+        { "type": "vcs", "url": "https://github.com/faclib/php-database" }
     ],
     "require-all": true
 }

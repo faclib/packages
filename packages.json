@@ -1,27 +1,26 @@
 {
     "packages": {
-        "faclib/php-base-utils": {
+        "faclib/base": {
             "dev-master": {
-                "name": "faclib/php-base-utils",
+                "name": "faclib/base",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/faclib/php-base-utils.git",
-                    "reference": "9bc37c926b4f8c6a73a00c53a5eb31b6572e3623"
+                    "url": "https://github.com/faclib/php-base.git",
+                    "reference": "f6fc5d2dec8e234f777d5fd9de8f3429a9f626be"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/php-base-utils/zipball/9bc37c926b4f8c6a73a00c53a5eb31b6572e3623",
-                    "reference": "9bc37c926b4f8c6a73a00c53a5eb31b6572e3623",
+                    "url": "https://api.github.com/repos/faclib/php-base/zipball/f6fc5d2dec8e234f777d5fd9de8f3429a9f626be",
+                    "reference": "f6fc5d2dec8e234f777d5fd9de8f3429a9f626be",
                     "shasum": ""
                 },
                 "require": {
                     "mustangostang/spyc": "0.5.*",
-                    "php": ">=5.3.0",
-                    "pimple/pimple": "1.*"
+                    "php": ">=5.3.0"
                 },
-                "time": "2014-03-05 23:50:09",
+                "time": "2014-03-06 08:20:19",
                 "type": "library",
                 "autoload": {
                     "files": [
@@ -40,24 +39,23 @@
                         "email": "fobia3d@gmail.com"
                     }
                 ],
-                "description": "PHP Base Utils.",
+                "description": "PHP Base functions",
                 "support": {
-                    "source": "https://github.com/faclib/php-base-utils/tree/master",
-                    "issues": "https://github.com/faclib/php-base-utils/issues"
+                    "source": "https://github.com/faclib/php-base/tree/master"
                 }
             },
             "dev-develop": {
-                "name": "faclib/php-base-utils",
+                "name": "faclib/base",
                 "version": "dev-develop",
                 "version_normalized": "dev-develop",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/faclib/php-base-utils.git",
+                    "url": "https://github.com/faclib/php-base.git",
                     "reference": "036b5870b33998232b435183452cfbc78f4309a9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/php-base-utils/zipball/036b5870b33998232b435183452cfbc78f4309a9",
+                    "url": "https://api.github.com/repos/faclib/php-base/zipball/036b5870b33998232b435183452cfbc78f4309a9",
                     "reference": "036b5870b33998232b435183452cfbc78f4309a9",
                     "shasum": ""
                 },
@@ -87,32 +85,68 @@
                 ],
                 "description": "PHP Base Utils.",
                 "support": {
-                    "source": "https://github.com/faclib/php-base-utils/tree/develop",
-                    "issues": "https://github.com/faclib/php-base-utils/issues"
+                    "source": "https://github.com/faclib/php-base/tree/develop"
                 }
             }
         },
-        "faclib/php-db-command": {
+        "faclib/database": {
             "dev-master": {
-                "name": "faclib/php-db-command",
+                "name": "faclib/database",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/faclib/php-db-command.git",
-                    "reference": "fbbd7fedb66d2042331086ad47856b7fd1f72043"
+                    "url": "https://github.com/faclib/php-database.git",
+                    "reference": "e65f8208fe8412723f85a1f717bdf3f1a9333574"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/php-db-command/zipball/fbbd7fedb66d2042331086ad47856b7fd1f72043",
-                    "reference": "fbbd7fedb66d2042331086ad47856b7fd1f72043",
+                    "url": "https://api.github.com/repos/faclib/php-database/zipball/e65f8208fe8412723f85a1f717bdf3f1a9333574",
+                    "reference": "e65f8208fe8412723f85a1f717bdf3f1a9333574",
+                    "shasum": ""
+                },
+                "require": {
+                    "faclib/base": "dev-master",
+                    "php": ">=5.3.0"
+                },
+                "time": "2014-03-06 08:26:28",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "query"
+                    ]
+                },
+                "authors": [
+                    {
+                        "name": "Dmitriy Tyurin",
+                        "email": "fobia3d@gmail.com"
+                    }
+                ],
+                "description": "PHP DataBase Command.",
+                "support": {
+                    "source": "https://github.com/faclib/php-database/tree/master"
+                }
+            },
+            "dev-develop": {
+                "name": "faclib/database",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/faclib/php-database.git",
+                    "reference": "2f6327279265d4e82c253079f17a4f66b60da536"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/faclib/php-database/zipball/2f6327279265d4e82c253079f17a4f66b60da536",
+                    "reference": "2f6327279265d4e82c253079f17a4f66b60da536",
                     "shasum": ""
                 },
                 "require": {
                     "faclib/php-base-utils": "dev-master",
                     "php": ">=5.3.0"
                 },
-                "time": "2014-03-05 23:59:21",
+                "time": "2014-03-05 23:55:04",
                 "type": "library",
                 "autoload": {
                     "classmap": [
@@ -127,8 +161,7 @@
                 ],
                 "description": "PHP DB Command.",
                 "support": {
-                    "source": "https://github.com/faclib/php-db-command/tree/master",
-                    "issues": "https://github.com/faclib/php-db-command/issues"
+                    "source": "https://github.com/faclib/php-database/tree/develop"
                 }
             }
         },
