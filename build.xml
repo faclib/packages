@@ -9,8 +9,8 @@
         <param name="satis" value="satis/slim.json"/>
         </antcall>
 
-              <antcall target="satis">
-        <param name="satis" value="satis/fac.json"/>
+        <antcall target="satis">
+            <param name="satis" value="satis/fac.json"/>
         </antcall>
               <antcall target="satis">
         <param name="satis" value="satis/smarty.json"/>
@@ -19,7 +19,7 @@
 
 
     <target name="satis">
-            <exec executable="satis" >
+            <exec executable="satis.phar" >
                 <arg value="build" />
                 <arg value="--no-interaction" />
                 <arg value="--skip-errors" />
