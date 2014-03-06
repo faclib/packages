@@ -277,25 +277,26 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/faclib/Slim.git",
-                    "reference": "10d483ec9dec4e1d232a02ef0bbe94bc4a8f7cab"
+                    "reference": "b76f40f7637e7a604af82d0c4e7e8aa464c837e1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim/zipball/10d483ec9dec4e1d232a02ef0bbe94bc4a8f7cab",
-                    "reference": "10d483ec9dec4e1d232a02ef0bbe94bc4a8f7cab",
+                    "url": "https://api.github.com/repos/faclib/Slim/zipball/b76f40f7637e7a604af82d0c4e7e8aa464c837e1",
+                    "reference": "b76f40f7637e7a604af82d0c4e7e8aa464c837e1",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0",
-                    "pimple/pimple": "1.*"
+                    "pimple/pimple": "2.*"
                 },
                 "require-dev": {
-                    "mockery/mockery": "dev-master@dev"
+                    "mockery/mockery": "dev-master@dev",
+                    "phpunit/phpunit": "*"
                 },
                 "suggest": {
                     "ext-mcrypt": "Required for HTTP cookie encryption"
                 },
-                "time": "2014-03-01 09:40:26",
+                "time": "2014-03-06 08:50:46",
                 "type": "library",
                 "extra": {
                     "branch-alias": {

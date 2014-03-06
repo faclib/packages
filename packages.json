@@ -28742,25 +28742,26 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/faclib/Slim.git",
-                    "reference": "10d483ec9dec4e1d232a02ef0bbe94bc4a8f7cab"
+                    "reference": "b76f40f7637e7a604af82d0c4e7e8aa464c837e1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim/zipball/10d483ec9dec4e1d232a02ef0bbe94bc4a8f7cab",
-                    "reference": "10d483ec9dec4e1d232a02ef0bbe94bc4a8f7cab",
+                    "url": "https://api.github.com/repos/faclib/Slim/zipball/b76f40f7637e7a604af82d0c4e7e8aa464c837e1",
+                    "reference": "b76f40f7637e7a604af82d0c4e7e8aa464c837e1",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0",
-                    "pimple/pimple": "1.*"
+                    "pimple/pimple": "2.*"
                 },
                 "require-dev": {
-                    "mockery/mockery": "dev-master@dev"
+                    "mockery/mockery": "dev-master@dev",
+                    "phpunit/phpunit": "*"
                 },
                 "suggest": {
                     "ext-mcrypt": "Required for HTTP cookie encryption"
                 },
-                "time": "2014-03-01 09:40:26",
+                "time": "2014-03-06 08:50:46",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -28791,91 +28792,6 @@
                 ],
                 "support": {
                     "source": "https://github.com/faclib/Slim/tree/develop"
-                }
-            }
-        },
-        "slim/view-smarty": {
-            "v0.1.0": {
-                "name": "slim/view-smarty",
-                "version": "v0.1.0",
-                "version_normalized": "0.1.0.0",
-                "target-dir": "Slim/Views",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/faclib/Slim-ViewSmarty.git",
-                    "reference": "ad05771b3707996f85f81af91fdd85f333c99a52"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim-ViewSmarty/zipball/ad05771b3707996f85f81af91fdd85f333c99a52",
-                    "reference": "ad05771b3707996f85f81af91fdd85f333c99a52",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.0",
-                    "slim/slim": "3.*"
-                },
-                "suggest": {
-                    "smarty/smarty": "Smarty templating system"
-                },
-                "time": "2014-02-17 04:24:06",
-                "type": "library",
-                "autoload": {
-                    "psr-0": {
-                        "Slim\\Views": ""
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Smarty View Parser package for the Slim Framework",
-                "support": {
-                    "source": "https://github.com/faclib/Slim-ViewSmarty/tree/v0.1.0",
-                    "issues": "https://github.com/faclib/Slim-ViewSmarty/issues"
-                }
-            },
-            "dev-master": {
-                "name": "slim/view-smarty",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "target-dir": "Slim/Views",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/faclib/Slim-ViewSmarty.git",
-                    "reference": "20ee3cbf41dfe6e2d39a1d63d2fdfa923a127234"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim-ViewSmarty/zipball/20ee3cbf41dfe6e2d39a1d63d2fdfa923a127234",
-                    "reference": "20ee3cbf41dfe6e2d39a1d63d2fdfa923a127234",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.0",
-                    "slim/slim": "*@dev"
-                },
-                "suggest": {
-                    "smarty/smarty": "Smarty templating system"
-                },
-                "time": "2014-03-01 09:43:12",
-                "type": "library",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "0.1.x-dev"
-                    }
-                },
-                "autoload": {
-                    "psr-0": {
-                        "Slim\\Views": ""
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "Smarty View Parser package for the Slim Framework",
-                "support": {
-                    "source": "https://github.com/faclib/Slim-ViewSmarty/tree/master",
-                    "issues": "https://github.com/faclib/Slim-ViewSmarty/issues"
                 }
             }
         },
