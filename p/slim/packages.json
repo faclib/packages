@@ -378,12 +378,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/faclib/Slim-ViewSmarty.git",
-                    "reference": "20ee3cbf41dfe6e2d39a1d63d2fdfa923a127234"
+                    "reference": "13328792226e74fe8f9293a3e6e572d5cade7dab"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim-ViewSmarty/zipball/20ee3cbf41dfe6e2d39a1d63d2fdfa923a127234",
-                    "reference": "20ee3cbf41dfe6e2d39a1d63d2fdfa923a127234",
+                    "url": "https://api.github.com/repos/faclib/Slim-ViewSmarty/zipball/13328792226e74fe8f9293a3e6e572d5cade7dab",
+                    "reference": "13328792226e74fe8f9293a3e6e572d5cade7dab",
                     "shasum": ""
                 },
                 "require": {
@@ -393,7 +393,7 @@
                 "suggest": {
                     "smarty/smarty": "Smarty templating system"
                 },
-                "time": "2014-03-01 09:43:12",
+                "time": "2014-03-08 04:33:22",
                 "type": "library",
                 "extra": {
                     "branch-alias": {

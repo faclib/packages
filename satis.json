@@ -3,9 +3,8 @@
     "homepage": "http://faclib.github.io/packages",
     "repositories": [
         { "type": "composer", "url": "http://faclib.github.io/packages/p/smarty" },
-        { "type": "composer", "url": "http://faclib.github.io/packages/p/fac" },
-        { "type": "composer", "url": "http://faclib.github.io/packages/p/pear" },
-        { "type": "vcs", "url": "https://github.com/faclib/Slim" }
+        { "type": "composer", "url": "http://faclib.github.io/packages/p/slim" },
+        { "type": "composer", "url": "http://faclib.github.io/packages/p/pear" }
     ],
     "require-all": true
 }
