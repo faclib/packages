@@ -277,12 +277,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/faclib/Slim.git",
-                    "reference": "b76f40f7637e7a604af82d0c4e7e8aa464c837e1"
+                    "reference": "770312a2e6c20ea57b6a525c469c88922d0e91f1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim/zipball/b76f40f7637e7a604af82d0c4e7e8aa464c837e1",
-                    "reference": "b76f40f7637e7a604af82d0c4e7e8aa464c837e1",
+                    "url": "https://api.github.com/repos/faclib/Slim/zipball/770312a2e6c20ea57b6a525c469c88922d0e91f1",
+                    "reference": "770312a2e6c20ea57b6a525c469c88922d0e91f1",
                     "shasum": ""
                 },
                 "require": {
@@ -296,7 +296,7 @@
                 "suggest": {
                     "ext-mcrypt": "Required for HTTP cookie encryption"
                 },
-                "time": "2014-03-06 08:50:46",
+                "time": "2014-03-12 18:07:19",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -305,7 +305,8 @@
                 },
                 "autoload": {
                     "psr-0": {
-                        "Slim": "."
+                        "Slim": ".",
+                        "Guzzle": "."
                     }
                 },
                 "license": [
