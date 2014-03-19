@@ -415,6 +415,66 @@
                     "issues": "https://github.com/faclib/Slim-ViewSmarty/issues"
                 }
             }
+        },
+        "slim/views": {
+            "dev-master": {
+                "name": "slim/views",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Slim/Views",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/faclib/Slim-Views.git",
+                    "reference": "084919d41a6a7a0c3cc42c0a7e6d4a13fb739a78"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/faclib/Slim-Views/zipball/084919d41a6a7a0c3cc42c0a7e6d4a13fb739a78",
+                    "reference": "084919d41a6a7a0c3cc42c0a7e6d4a13fb739a78",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0",
+                    "slim/slim": "*@dev"
+                },
+                "suggest": {
+                    "smarty/smarty": "Smarty templating system",
+                    "twig/twig": "Twig templating system"
+                },
+                "time": "2014-03-19 18:30:50",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Slim\\Views": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Josh Lockhart",
+                        "email": "info@joshlockhart.com",
+                        "homepage": "http://www.joshlockhart.com/"
+                    },
+                    {
+                        "name": "Andrew Smith",
+                        "email": "a.smith@silentworks.co.uk",
+                        "homepage": "http://thoughts.silentworks.co.uk/"
+                    }
+                ],
+                "description": "Smarty and Twig View Parser package for the Slim Framework",
+                "homepage": "http://github.com/codeguy/Slim-Views",
+                "keywords": [
+                    "extensions",
+                    "slimphp",
+                    "templating"
+                ],
+                "support": {
+                    "source": "https://github.com/faclib/Slim-Views/tree/master",
+                    "issues": "https://github.com/faclib/Slim-Views/issues"
+                }
+            }
         }
     }
 }

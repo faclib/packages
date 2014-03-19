@@ -4,7 +4,8 @@
     "output-dir":"p/slim",
     "repositories": [
         { "type": "vcs", "url": "https://github.com/faclib/Slim" },
-        { "type": "vcs", "url": "https://github.com/faclib/Slim-ViewSmarty" }
+        { "type": "vcs", "url": "https://github.com/faclib/Slim-ViewSmarty" },
+        { "type": "vcs", "url": "https://github.com/faclib/Slim-Views" }
     ],
     "require-all": true
 }
