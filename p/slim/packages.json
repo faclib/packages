@@ -426,12 +426,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/faclib/Slim-Views.git",
-                    "reference": "4f61207865a5cf68ffb45f4532cbedbf7689a1f3"
+                    "reference": "6f9dd14aada4f87ec0f0fd5dfcfbeff4893559b1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Slim-Views/zipball/4f61207865a5cf68ffb45f4532cbedbf7689a1f3",
-                    "reference": "4f61207865a5cf68ffb45f4532cbedbf7689a1f3",
+                    "url": "https://api.github.com/repos/faclib/Slim-Views/zipball/6f9dd14aada4f87ec0f0fd5dfcfbeff4893559b1",
+                    "reference": "6f9dd14aada4f87ec0f0fd5dfcfbeff4893559b1",
                     "shasum": ""
                 },
                 "require": {
@@ -442,7 +442,7 @@
                     "smarty/smarty": "Smarty templating system",
                     "twig/twig": "Twig templating system"
                 },
-                "time": "2014-03-20 12:23:54",
+                "time": "2014-03-26 17:41:34",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
