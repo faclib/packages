@@ -143,6 +143,44 @@
                     "source": "https://github.com/faclib/Smarty/tree/v3.1.18"
                 }
             },
+            "v3.1.19": {
+                "name": "smarty/smarty",
+                "version": "v3.1.19",
+                "version_normalized": "3.1.19.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/faclib/Smarty.git",
+                    "reference": "c8cfffb58dda40ce34aafcdd31b145a923f921f2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/faclib/Smarty/zipball/c8cfffb58dda40ce34aafcdd31b145a923f921f2",
+                    "reference": "c8cfffb58dda40ce34aafcdd31b145a923f921f2",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "time": "2014-07-10 11:04:08",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "libs/Smarty.class.php"
+                    ]
+                },
+                "license": [
+                    "(LGPL-2.1 or GPL-3.0+)"
+                ],
+                "description": "Smarty is a template engine for PHP.",
+                "support": {
+                    "source": "https://github.com/faclib/Smarty/tree/v3.1.19"
+                }
+            },
             "3.1.x-dev": {
                 "name": "smarty/smarty",
                 "version": "3.1.x-dev",
@@ -150,21 +188,26 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/faclib/Smarty.git",
-                    "reference": "6c6020c774b4c99987e767fc4b2ab972395c2ae6"
+                    "reference": "98bc85daadc9efd502872f192d64f8b404d472e4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Smarty/zipball/6c6020c774b4c99987e767fc4b2ab972395c2ae6",
-                    "reference": "6c6020c774b4c99987e767fc4b2ab972395c2ae6",
+                    "url": "https://api.github.com/repos/faclib/Smarty/zipball/98bc85daadc9efd502872f192d64f8b404d472e4",
+                    "reference": "98bc85daadc9efd502872f192d64f8b404d472e4",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
                 },
-                "time": "2014-03-01 09:46:16",
+                "time": "2014-07-10 11:00:24",
                 "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.1.x-dev"
+                    }
+                },
                 "autoload": {
-                    "files": [
+                    "classmap": [
                         "libs/Smarty.class.php"
                     ]
                 },
@@ -183,18 +226,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/faclib/Smarty.git",
-                    "reference": "98b371c274d8fb0ce24178ca886d571bea33c9cf"
+                    "reference": "c8cfffb58dda40ce34aafcdd31b145a923f921f2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/faclib/Smarty/zipball/98b371c274d8fb0ce24178ca886d571bea33c9cf",
-                    "reference": "98b371c274d8fb0ce24178ca886d571bea33c9cf",
+                    "url": "https://api.github.com/repos/faclib/Smarty/zipball/c8cfffb58dda40ce34aafcdd31b145a923f921f2",
+                    "reference": "c8cfffb58dda40ce34aafcdd31b145a923f921f2",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.0"
                 },
-                "time": "2014-04-27 18:46:36",
+                "time": "2014-07-10 11:04:08",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -211,7 +254,7 @@
                 ],
                 "description": "Smarty is a template engine for PHP.",
                 "support": {
-                    "source": "https://github.com/faclib/Smarty/tree/v3.1.18"
+                    "source": "https://github.com/faclib/Smarty/tree/v3.1.19"
                 }
             }
         }
